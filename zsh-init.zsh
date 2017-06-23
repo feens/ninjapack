@@ -17,3 +17,4 @@ source $NINJA_ZSH/history.zsh
 source $NINJA_ZSH/completions.zsh
 source $NINJA_ZSH/colors.zsh
 source $NINJA_ZSH/editor.zsh
+source $NINJA_ZSH/git.zsh

@@ -1,11 +1,7 @@
-if [[ -e /usr/bin/mate2 ]]; then
-	export EDITOR="/usr/bin/mate2 -w"
-elif [[ -e /usr/bin/ruby ]]; then
-	export EDITOR="$NINJA_HOME/bin/rmate -w"
-elif [[ -e /usr/bin/mate ]]; then
-	export EDITOR="/usr/bin/mate -w"
+if [[ -e /usr/local/bin/atom ]]; then
+	export EDITOR="/usr/local/bin/atom -w"
 elif [[ -e /usr/bin/nano ]]; then
 	export EDITOR=/usr/bin/nano
 else
-	echo "Neither TextMate nor nano present, enjoy your VI."
+	echo "Neither Atom nor nano present, enjoy your VI."
 fi

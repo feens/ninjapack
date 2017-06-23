@@ -1,4 +1,4 @@
-h1. Ruy's Ninja-Pack of Cool Shell Tools For Attractive People
+h1. Trevor's version of Ruy's Ninja-Pack of Cool Shell Tools For Attractive People
 
 This is a collection of random crap I am tired of setting up every time I get a new shell. It assumes a preference for the following tools:
 
@@ -7,7 +7,7 @@ This is a collection of random crap I am tired of setting up every time I get a 
  * nano (if you're a fancy vim/emacs person why do you need a shell anyway?)
  * SSH with key logins
 
-It also assumes you like colors. 
+It also assumes you like colors.
 
 h2. Usage
 
@@ -27,9 +27,9 @@ h3. Subsequent hosts
 
 Rather then repeat the above steps for additional hosts you wish to connect to, you can use the provided command @npush@. It takes a hostname, optionally with username, same as the @ssh@ command. e.g.
 
-bc. npush ruy@yourmom.example.com
+bc. npush trevor@my.example.com
 
-You will be asked to type in your SSH password. 
+You will be asked to type in your SSH password.
 
 This is what cool shit is about to happen:
 
@@ -48,7 +48,7 @@ If you want to update a host from upstream (be it mine or your fork) simply @git
 h2. Known broken shit
 
  * @zsh 4.3.9@ (i think) or higher is require and will silently fail otherwise as it lacks smart handling of @PROMPT@ colors.
- 
+
 h2. Short term future wishlist
 
  * SVN support, _grumble grumble_
@@ -66,5 +66,3 @@ Running rmate/rsub (package control: install rsub)?
  * Destination: @127.0.0.1:52698@
  * @Remote@, @Auto@
  * Remember to hit @Add@
-
-
